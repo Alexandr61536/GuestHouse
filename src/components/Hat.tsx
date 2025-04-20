@@ -11,7 +11,7 @@ export const Hat: React.FC<HatProps> = ({description, title}) => {
     const styles: {[key: string]: CSSProperties} = {
         description: {
             fontSize: "var(--mantine-font-size-md)",
-            textAlign: "center",
+            textAlign: "right",
             color: "#FFF",
             fontWeight: 500,
             letterSpacing: "0.5rem",
@@ -19,7 +19,7 @@ export const Hat: React.FC<HatProps> = ({description, title}) => {
         },
         title: {
             fontSize: "var(--mantine-font-size-lg)",
-            textAlign: "center",
+            textAlign: "left",
             color: "#FFF",
             fontWeight: 700,
             height: "fit-content",
