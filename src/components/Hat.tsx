@@ -27,11 +27,12 @@ export const Hat: React.FC<HatProps> = ({description, title}) => {
         root: {
             padding: "10% 0",
             backgroundColor: "#b94d5c",
+            height: "100vh",
         }
     }
 
     return (
-        <Center style={styles["root"]}>
+        <Center style={styles["root"]} className="layer1">
             <Stack gap={"xs"}>
                 <span style={styles["description"]}>
                     {description}
